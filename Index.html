@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0e13">
+<title>Het Klusje – Kies je pad</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <section id="intro">
+    <span class="tag">Fictief verhaal · 3 min</span>
+    <h1>Het <span>Klusje</span></h1>
+    <p>“€100 voor 5 minuten werk.” Een bericht dat steeds meer jongeren krijgen, vaak van iemand die ze kennen.</p>
+    <ul>
+      <li>Jij kiest. Elke keuze heeft gevolgen.</li>
+      <li>Houd je geld, risico en toekomst in de gaten.</li>
+      <li>Aan het eind zie je wat jouw pad in het echt zou betekenen.</li>
+    </ul>
+    <button class="btn" id="startBtn" type="button">Start de chat →</button>
+    <p class="fine">Over illegaal vuurwerk, druk en dreiging. Er wordt niets verstuurd; alleen op dit apparaat wordt onthouden welke eindes je zag.</p>
+  </section>
+
+  <header id="header">
+    <div class="avatar" id="avatar">K</div>
+    <div class="who"><b id="contactName">Kev 🔥</b><small id="contactStatus">online</small></div>
+    <button class="icon-btn" id="restartBtn" type="button" aria-label="Opnieuw beginnen" title="Opnieuw beginnen">↺</button>
+  </header>
+  <div id="meters" aria-label="Meters"></div>
+  <main id="chat" aria-live="polite"></main>
+  <div id="choices"></div>
+  <section id="dashboard" hidden aria-label="Impact dashboard"></section>
+</div>
+<div id="toast" role="status"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
